@@ -10,5 +10,5 @@ Software-defined network traffic engineering
 
 - Extra Credit
   - all_forms.ipynb: Condensed function for all three formulations
-  - topologies.ipynb: Code to run formulations on various graph sizes
+  - topologies2.ipynb: Code to run formulations on various graph sizes
   - solving_time.ipynb: Graph to visualize growth in Gurobi solving time
