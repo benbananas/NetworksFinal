@@ -30,8 +30,8 @@ def all_formulations(G, newDemand, n):
             if i != j:
                 newPaths = []
                 for path in k_shortest_paths(G, i, j, 5):
-                    newPaths.append([(path[i], path[i + 1])
-                                    for i in range(len(path) - 1)])
+                    newPaths.append([(path[k], path[k + 1])
+                                    for k in range(len(path) - 1)])
                 # newPaths = list(sorted(nx.all_simple_edge_paths(G, i, j), key=len))[0:5]
                 paths.extend(newPaths)
 
