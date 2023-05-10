@@ -16,9 +16,13 @@ Software-defined network traffic engineering
   - time_results3.csv: Record of solving times for different topologies
   - topologies3.ipynb: Code to run formulations on various graph sizes
 
-  ## How to run code
+## How to run code
 
-  - Main
+- Main
 
-  - Extra Credit
-    - Run topologies3.ipynb and the visualizations will be at the bottom
+  - Run proj.ipynb for all three formulations
+  - Run visualizations.ipynb to retrieve graphs
+
+- Extra Credit
+
+  - Run topologies3.ipynb and the visualizations will be at the bottom
